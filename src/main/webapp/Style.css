@@ -1,0 +1,27 @@
+#secaoPassagem {
+    background-image: url(imagens/voo.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+#secaoHotel {
+    background-image: url(imagens/imagemHotell.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+#secaoPacote {
+    background-image: url(imagens/pacote6.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+#secaoCarro {
+    background-image: url(imagens/aluguelcarros.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}

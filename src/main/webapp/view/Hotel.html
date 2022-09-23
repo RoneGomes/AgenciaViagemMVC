@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotéis</title>
+</head>
+
+
+<body>
+    <div style="background-color:#43BCBE ;">
+        
+        <!--inicio da navbar-->
+
+        <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:#5CA255 ;">
+            <div class="container-fluid">
+                <img src="../imagens/mundo3.png">
+                <a class="navbar-brand" href="Voo.html" style="font-size:35px;">DREAM TRIP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " href="Voo.html"><img src="../imagens/aviao4.png">  Voo</a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link active " aria-current="page"  href="Hotel.html"><img src="../imagens/hotel4.png">  Hotel</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="Pacotes.html"><img src="../imagens/mala3.png">  Pacotes</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="Aluguel.html"><img src="../imagens/carro.png">  Aluguel de carro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contatos.html"><img src="../imagens/contato.png">  Contato</a>
+                        </li>
+                    </ul>
+                    <div class="dropdown">
+                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="../imagens/user.png" alt=" ">
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="Login.html">Fazer Login</a></li>
+                            <li><a class="dropdown-item" href="cadastroUsuario.html">Cadastrar</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--fim da navbar-->
+        <section id="secaoHotel">
+
+        <!---incio form comprar passagem-->
+        <br><br><br>
+
+        <div class=" p-5 " style="border:solid; border-radius: 50px ; width: 90%; margin-left: 5%;border-color: #E0E0E0;">
+            <form class="row gx-3 gy-2 align-items-center">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1 class="display-5" style="font-weight:bold;">Hotéis</h1>
+                    <hr class="my-2">
+                    <br>
+                </div>
+                
+                <br><br><br><br><br><br>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <select class="form-select" aria-label="Disabled select example">
+                            <option selected>buscar cidade ou aeropoto</option>
+                            <option value="1">Salvador</option>
+                            <option value="2">Rio de Janeiro</option>
+                            <option value="3">São Paulo</option>
+                        </select>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+
+                        <div class="input-group flex-nowrap">
+                            <input type="text" class="form-control" placeholder="check-in">
+                            <input type="text" class="form-control" placeholder="check-out">
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <select class="form-select" aria-label="Disabled select example">
+                            <option selected>hospedes</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <button type="submit"  style="border-radius:10px ; background-color: #5CA255; width: 100%;">Buscar
+                            voo</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <br><br><br>
+
+    </section>
+    <br><br><br><br>
+
+    <section>
+        <div class="row  my-2">
+
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="card mb-3"
+                        style="max-width: 540px;border:solid; background-color: #5CA255; border-color:#E0E0E0;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="../imagens/pacote2.webp" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <br>
+                                    <h2 style="color:#E0E0E0 ;">Destinos</h2>
+                                    <br>
+                                    <h5 style="color:#E0E0E0 ;"><a>Conheça nossos destinos!</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="card mb-3" style="max-width: 540px;border:solid; background-color: #5CA255; border-color:#E0E0E0;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../imagens/pacote1.webp"  alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <br>
+                                <h2 style="color:#E0E0E0 ;">Pacotes</h2>
+                                <br><br>
+                                <h5 style="color:#E0E0E0 ;"><a>Conheça nossos pacotes!</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="card mb-3" style="max-width: 540px;border:solid; background-color: #5CA255; border-color:#E0E0E0;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../imagens/carro2.webp" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <br>
+                                <h2 style="color:#E0E0E0 ;">Aluguel de carros</h2>
+                                <br>
+                                <h5 style="color:#E0E0E0 ;"><a>Conheça nossos carros!</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    <br><br><br><br>
+
+    <!---começo seção de Hoteis---->
+    <section>
+    <div class="row  my-2">
+
+        <h2>Nossos Hotéis</h2>
+        <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div style="border:solid;border-color:#5CA255;background-color: #E0E0E0;">
+                <img class="card-img-top"
+                    src="../imagens/hospe1.webp" alt="Title">
+                <div class="card-body">
+                    <h4 class="card-title">Balneario Caboriu</h4>
+                    <h6>conheça agora!</h6>
+                    <button style="background-color:#5CA255;">Visitar</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div style="border:solid;border-color:#5CA255;background-color: #E0E0E0;">
+                <img class="card-img-top" src="../imagens/hospe2.webp" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Fotaleza</h4>
+                    <h6>conheça agora!</h6>
+                    <button style="background-color:#5CA255;">Visitar</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div style="border:solid;border-color:#5CA255;background-color: #E0E0E0;">
+                <img class="card-img-top" src="../imagens/hospe3.webp"
+                    alt="Foz Iguaçú">
+                <div class="card-body">
+                    <h4 class="card-title">Foz Iguaçú</h4>
+                    <h6>conheça agora!</h6>
+                    <button style="background-color:#5CA255;">Visitar</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div style="border:solid;border-color:#5CA255;background-color: #E0E0E0;">
+                <img class="card-img-top" src="../imagens/hospe4.webp" alt="Gramado">
+                <div class="card-body">
+                    <h4 class="card-title">Gramado</h4>
+                    <h6>conheça agora!</h6>
+                    <button style="background-color:#5CA255;">Visitar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row  my-2">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div style="border:solid;border-color:#5CA255;background-color: #E0E0E0;">
+                <img class="card-img-top" src="../imagens/hospe7.webp" alt="João Pessoa">
+                <div class="card-body">
+                    <h4 class="card-title">João Pessoa</h4>
+                    <h6>conheça agora!</h6>
+                    <button style="background-color:#5CA255;">Visitar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div style="border:solid;border-color:#5CA255;background-color: #E0E0E0;">
+                <img class="card-img-top" src="../imagens/hospe8.webp" alt="Porto Seguro">
+                <div class="card-body">
+                    <h4 class="card-title">Porto Seguro</h4>
+                    <h6>conheça agora!</h6>
+                    <button style="background-color:#5CA255;">Visitar</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div style="border:solid;border-color:#5CA255;background-color: #E0E0E0;">
+                <img class="card-img-top" src="../imagens/hospe9.webp" alt="Rio De Janeiro">
+                <div class="card-body">
+                    <h4 class="card-title">Rio de Janeiro</h4>
+                    <h6>conheça agora!</h6>
+                    <button style="background-color:#5CA255;">Visitar</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div style="border:solid;border-color:#5CA255;background-color: #E0E0E0;">
+                <img class="card-img-top" src="../imagens/hospe10.webp"
+                    alt="Porto de Galinhas">
+                <div class="card-body">
+                    <h4 class="card-title">Porto de Galinhas</h4>
+                    <h6>conheça agora!</h6>
+                    <button style="background-color:#5CA255;">Visitar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br><br><br><br>
+
+
+
+
+</section>
+      <!----seção promoções-->
+      <section>
+        <h2 style="color:red;">Aproveite as nossas promoçoes!</h2>
+        <div class="row  my-2">
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="card text-start" style="border: solid;border-color: red;">
+                    <img class="card-img-top" src="../imagens/lisboa-thinkstock-516950227_2.jpg" alt="Lisbao">
+                    <div class="card-body">
+                        <h4 class="card-title">Lisboa</h4>
+                        <hr>
+                        <h5 style="color: red;">Promoção</h5>
+                        <br>
+                        <font style="color: red;"><strike>De: 7000,00</strike></font><br><br>
+                        <font>Por: 5500,00</font> <br><br>
+                        <button class="btn btn-primary">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-start" style="border: solid;border-color: red;">
+                    <img class="card-img-top" src="../imagens/punta-cana.jpg" alt="punta">
+                    <div class="card-body">
+                        <h4 class="card-title">Puanta</h4>
+                        <hr>
+                        <h5 style="color: red;">Promoção</h5>
+                        <br>
+                        <font style="color: red;"><strike>De: 6000,00</strike></font><br><br>
+                        <font>Por: 5000,00</font> <br><br>
+                        <button class="btn btn-primary">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-start" style="border: solid;border-color: red;">
+                    <img class="card-img-top" src="../imagens/rio-2_0.jpg" alt="Rio de Janeiro">
+                    <div class="card-body">
+                        <h4 class="card-title">Rio de Janeiro</h4>
+                        <hr>
+                        <h5 style="color: red;">Promoção</h5>
+                        <br>
+                        <font style="color: red;"><strike>De: 1200,00</strike></font><br><br>
+                        <font>Por: 999,00</font> <br><br>
+                        <button class="btn btn-primary">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+<br><br><br><br>
+
+
+<nav class="navbar navbar-light " style="background-color:#E0E0E0;border: solid;border-color: #5CA255;">
+    <div class="container-fluid " style="justify-content: center;">
+        <span class="navbar-brand mb-0 h1 "><img src="../imagens/formas-pagamento.png"
+                style=" height: 100px;"></span>
+    </div>
+</nav>
+
+        <!----fim do footer-->
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+
+</body>
+
+</html>
